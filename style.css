@@ -83,7 +83,7 @@ flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo1.jpg);
+    background-image: url(images/photo1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -109,7 +109,7 @@ flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo2.jpg);
+    background-image: url(images/photo2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -134,7 +134,7 @@ flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo3.jpg);
+    background-image: url(images/photo3.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -159,7 +159,7 @@ flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo4.jpg);
+    background-image: url(images/photo4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -184,7 +184,7 @@ flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo5.jpg);
+    background-image: url(images/photo5.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -209,7 +209,7 @@ flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo6.jpg);
+    background-image: url(images/photo6.jpg);
     background-position: center;
     background-size: cover;
 }
