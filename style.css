@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(249, 245, 245);
+    margin: 0px 120px 20px 120px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Garamond, serif;
+}
+#logoimg {
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.sidenav {
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 180px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(54, 53, 53);
+    display: block;
+}
+#maker {
+    height: 500px;
+}
+.homecontent {
+    margin-left: 180px;
+    display: flex;
+}
+.homecontent > div {
+flex: 1;
+}
+.box1 {
+    text-align: center;
+    font-size: 30px;
+}
+ h2 {
+    font-size: 60px;
+}
+ #start {
+    font-style: italic;
+    color:rgb(34, 33, 33);
+    font-size: 50px;
+}
+#cup {
+    font-style: italic;
+    color:rgb(61, 60, 60);
+}
+#video {
+    width: 956px;
+    height: 538px;
+}
+.video {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.general {
+    margin-left: 180px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 20px;
+}
+.one {
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.one p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+}
+.one:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.one:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+.two {
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.two p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+}
+.two:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}  
+.two:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+.three {
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.three p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+}
+.three:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}  
+.three:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+.four {
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.four p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+}
+.four:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}  
+.four:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+.five {
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.five p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+}
+.five:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}  
+.five:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+.six {
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Product%20Landing%20Page/images/photo6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.six p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+}
+.six:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}  
+.six:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+#register {
+    margin: 100px 180px 60px 180px;
+    font-size: 25px;
+    background-color: rgb(247, 246, 246);
+    text-align: center;
+}
+#submit {
+    font-size: 30px;
+    margin: 15px;
+}
+.footer {
+    display: flex;
+    background-color: rgb(173, 173, 173);
+    font-size: 20px;
+    margin: 0px 100px 20px 100px;
+}
+.footer > div {
+    flex: 1;
+}
+.footer1 {
+    text-align: center;
+}
+.footer2 {
+    text-align: center;
+}
+.footer3 {
+    text-align: center;
+}
+.icons {
+    width: 250px;
+    margin: 25px;
+}
